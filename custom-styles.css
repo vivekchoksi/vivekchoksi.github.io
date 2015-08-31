@@ -3,7 +3,7 @@
 }
 
 .mdl-color--primary-dark {
-  background-color: #78909C!important;
+  background-color: #455A64!important;
 }
 
 div.mdl-layout--large-screen-only.mdl-layout__header-row {
@@ -11,7 +11,7 @@ div.mdl-layout--large-screen-only.mdl-layout__header-row {
 }
 
 .title > h2{
-  color: #607D8B; /* Blue grey */
+  color: #455A64; /* Blue grey */
 }
 
 .mdl-card__supporting-text > p {
@@ -20,35 +20,35 @@ div.mdl-layout--large-screen-only.mdl-layout__header-row {
 }
 
 .mdl-layout.is-upgraded .mdl-layout__tab.about {
-  color: #BBDEFB; /* Blue */
+  color: #40C4FF; /* Blue */
 }
 
 a.mdl-layout__tab.is-active.about::after {
-  background-color: #BBDEFB!important;
+  background-color: #40C4FF!important;
 }
 
 .mdl-layout.is-upgraded .mdl-layout__tab.work {
-  color: #F8BBD0; /* Pink */
+  color: #FF7043; /* Deep orange */
 }
 
 a.mdl-layout__tab.is-active.work::after {
-  background-color: #F8BBD0!important;
+  background-color: #FF7043!important;
 }
 
 .mdl-layout.is-upgraded .mdl-layout__tab.projects {
-  color: #FFF9C4; /* Yellow */
+  color: #FFCA28; /* Amber */
 }
 
 a.mdl-layout__tab.is-active.projects::after {
-  background-color: #FFF9C4!important;
+  background-color: #FFCA28!important;
 }
 
 .mdl-layout.is-upgraded .mdl-layout__tab.other {
-  color: #C8E6C9; /* Green */
+  color: #00E676; /* Green */
 }
 
 a.mdl-layout__tab.is-active.other::after {
-  background-color: #C8E6C9!important;
+  background-color: #00E676!important;
 }
 
 .mdl-layout.is-upgraded .mdl-layout__tab {
@@ -59,9 +59,16 @@ a.mdl-layout__tab.is-active.projects::after {
   height: 500px;
 }
 
-#about a {
-  color: #2196F3;
+a {
   text-decoration: none;
+}
+
+#about a {
+  color: #40C4FF;
+}
+
+#work a {
+  color: #FF7043;
 }
 
 .main-picture {
