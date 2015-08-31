@@ -90,3 +90,29 @@ a {
 .mdl-demo .mdl-layout__header-row {
   padding-left: 0px;
 }
+
+.mdl-demo section .section__circle-container > .section__circle-container__circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.section__text > p {
+  padding-bottom: 20px;
+}
+
+.mdl-demo.mdl-demo .mdl-card__supporting-text h4 {
+  font-size: 20px;
+  padding-bottom: 8px;
+  margin-bottom: 0px;
+}
+
+.mdl-demo.mdl-demo .mdl-card__supporting-text h5 {
+  font-size: 16px;
+}
+
+.mdl-demo section.section--center .section__text:not(:last-child) {
+  border-bottom: none;
+}
