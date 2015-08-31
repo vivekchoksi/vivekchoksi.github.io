@@ -1,0 +1,85 @@
+.mdl-color--primary {
+  background-color: white!important;
+}
+
+.mdl-color--primary-dark {
+  background-color: #78909C!important;
+}
+
+div.mdl-layout--large-screen-only.mdl-layout__header-row {
+  height: 24px;
+}
+
+.title > h2{
+  color: #607D8B; /* Blue grey */
+}
+
+.mdl-card__supporting-text > p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.about {
+  color: #BBDEFB; /* Blue */
+}
+
+a.mdl-layout__tab.is-active.about::after {
+  background-color: #BBDEFB!important;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.work {
+  color: #F8BBD0; /* Pink */
+}
+
+a.mdl-layout__tab.is-active.work::after {
+  background-color: #F8BBD0!important;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.projects {
+  color: #FFF9C4; /* Yellow */
+}
+
+a.mdl-layout__tab.is-active.projects::after {
+  background-color: #FFF9C4!important;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.other {
+  color: #C8E6C9; /* Green */
+}
+
+a.mdl-layout__tab.is-active.other::after {
+  background-color: #C8E6C9!important;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab {
+  color: #757575; /* Gray */
+}
+
+a.mdl-layout__tab.is-active.projects::after {
+  height: 500px;
+}
+
+#about a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.main-picture {
+  background: url("./images/cape-point.JPG") no-repeat center 0;
+  background-position: left top;
+  background-size: 100% auto;
+  width: 100%;
+  height: 320px;
+}
+
+.mdl-demo section.section--center {
+  max-width: 720px;
+}
+
+.mdl-demo .mdl-layout__tab-bar {
+  padding: 0px;
+}
+
+.mdl-demo .mdl-layout__header-row {
+  padding-left: 0px;
+}
