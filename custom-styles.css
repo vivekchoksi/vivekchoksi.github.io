@@ -3,7 +3,7 @@
 }
 
 .mdl-color--primary-dark {
-  background-color: #424242!important;
+  background-color: white!important;
 }
 
 div.mdl-layout--large-screen-only.mdl-layout__header-row {
@@ -67,12 +67,16 @@ a {
   color: #40C4FF;
 }
 
-#work a {
+#projects a {
   color: #FF7043;
 }
 
-#projects a {
-  color: #FF7043;
+#work a, #work h4 {
+  color: #40C4FF;
+}
+
+#other a, #other h4 {
+  color: #00E676;
 }
 
 .main-picture {
@@ -126,7 +130,7 @@ a {
 }
 
 .mdl-mega-footer {
-  background-color: #424242; 
+  background-color: #424242;
 }
 
 .social-icon {
@@ -140,7 +144,10 @@ a {
   font-family: Inconsolata, monospace;
   color: white;
   display: block;
-  margin: 10px auto;
+  margin: 14px auto;
 }
 
-
+.mdl-cell.mdl-cell--12-col.no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
