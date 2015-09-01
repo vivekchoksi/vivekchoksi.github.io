@@ -3,7 +3,7 @@
 }
 
 .mdl-color--primary-dark {
-  background-color: #455A64!important;
+  background-color: #424242!important;
 }
 
 div.mdl-layout--large-screen-only.mdl-layout__header-row {
@@ -11,7 +11,7 @@ div.mdl-layout--large-screen-only.mdl-layout__header-row {
 }
 
 .title > h2{
-  color: #455A64; /* Blue grey */
+  color: #424242; /* Grey */
 }
 
 .mdl-card__supporting-text > p {
@@ -28,19 +28,19 @@ a.mdl-layout__tab.is-active.about::after {
 }
 
 .mdl-layout.is-upgraded .mdl-layout__tab.work {
-  color: #FF7043; /* Deep orange */
-}
-
-a.mdl-layout__tab.is-active.work::after {
-  background-color: #FF7043!important;
-}
-
-.mdl-layout.is-upgraded .mdl-layout__tab.projects {
   color: #FFCA28; /* Amber */
 }
 
-a.mdl-layout__tab.is-active.projects::after {
+a.mdl-layout__tab.is-active.work::after {
   background-color: #FFCA28!important;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.projects {
+  color: #FF7043; /* Deep orange */
+}
+
+a.mdl-layout__tab.is-active.projects::after {
+  background-color: #FF7043!important;
 }
 
 .mdl-layout.is-upgraded .mdl-layout__tab.other {
@@ -71,6 +71,10 @@ a {
   color: #FF7043;
 }
 
+#projects a {
+  color: #FF7043;
+}
+
 .main-picture {
   background: url("./images/cape-point.JPG") no-repeat center 0;
   background-position: left top;
@@ -80,7 +84,7 @@ a {
 }
 
 .mdl-demo section.section--center {
-  max-width: 720px;
+  max-width: 840px;
 }
 
 .mdl-demo .mdl-layout__tab-bar {
@@ -96,11 +100,11 @@ a {
   height: 120px;
   border-radius: 50%;
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .section__text > p {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .mdl-demo.mdl-demo .mdl-card__supporting-text h4 {
@@ -116,3 +120,27 @@ a {
 .mdl-demo section.section--center .section__text:not(:last-child) {
   border-bottom: none;
 }
+
+.mdl-demo main > .mdl-layout__tab-panel {
+  padding-bottom: 48px;
+}
+
+.mdl-mega-footer {
+  background-color: #424242; 
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 24px;
+  display: inline-block;
+}
+
+.email-text {
+  font-family: Inconsolata, monospace;
+  color: white;
+  display: block;
+  margin: 10px auto;
+}
+
+
