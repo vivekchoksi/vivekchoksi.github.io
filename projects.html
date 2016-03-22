@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Vivek Choksi">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vivek Choksi | Projects</title>
+
+    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-10">
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+
+              <li><a class="nav-leftmost" href="index.html">about</a></li>
+              <li><a class="nav-current" href="projects.html">projects</a></li>
+              <li><a href="work.html">work</a></li>
+              <!--li><a  href="/other" >other</a></li-->
+            </ul>
+          </div>
+
+          <h1 class="section-header">Research projects</h1>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8">
+              <div class="project-title">
+                <a href="http://web.stanford.edu/class/cs224w/projects_2015/Influence_Networks_in_Popular_Music.pdf">Graph analysis: Influence networks in popular music</a>
+              </div>
+              <div class="project-description">
+                In this project, my team addressed the question: can we use audio data to identify and characterize musical influence relationships? Using data from allmusic.com, we constructed a directed graph encoding musical influence. We then performed link prediction on this graph by training a classifier with input features based on graph structure as well as song audio content data. Our positive results affirm the promise of data-driven analyses into progression of musical creativity. [<a href="https://github.com/vivekchoksi/music-influence">code</a> | <a href="http://web.stanford.edu/class/cs224w/projects_2015/Influence_Networks_in_Popular_Music.pdf">report</a>]
+              </div>
+            </div>
+            <div class="hidden-xs col-sm-5 col-md-4">
+              <img class="img-circle img-responsive project-image" src="img/music-influence.png" alt="graph encoding musical influence">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8">
+              <div class="project-title">
+                <a href="papers/taxi_pickups.pdf">Machine learning: predicting taxi traffic in NYC</a>
+              </div>
+              <div class="project-description">
+                The ability to predict taxi traffic could be useful to taxi dispatchers and city planners. My group implemented such a prediction system, applying machine learning to predict the number of taxi pickups given a time interval and location in New York City. This was our final project for an artificial intelligence class (CS221) and was inspired by MIT's 2013-2014 Big Data Challenge, which proposed the same problem for taxicabs in Boston. [<a href="https://github.com/vivekchoksi/taxi-pickups">code</a> | <a href="papers/taxi_pickups.pdf">report</a>]
+              </div>
+            </div>
+            <div class="hidden-xs col-sm-5 col-md-4">
+              <img class="img-circle img-responsive project-image" src="img/taxi-regression-plot.png" alt="regression plot">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8">
+              <div class="project-title">
+                <a href="papers/game_phase_arimaa.pdf">Artificial intelligence: game-phase in computer Arimaa</a>
+              </div>
+              <div class="project-description">
+                Continuing our research in <a href="http://en.wikipedia.org/wiki/Computer_Arimaa">computer Arimaa</a>, my group created a bot with knowledge of the "game-phase" of a board position in order to evaluate boards and rank moves more effectively. We conducted this research as a 4-person team engaged in an independent study project under Professor Michael Genesereth. [<a href="https://github.com/vmohan7/Arimaa">code</a> | <a href="papers/game_phase_arimaa.pdf">report</a>]
+              </div>
+            </div>
+            <div class="hidden-xs col-sm-5 col-md-4">
+              <img class="img-circle img-responsive project-image" src="img/arimaa-board.png" alt="Arimaa board">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8">
+              <div class="project-title">
+                <a href="http://arimaa.com/arimaa/papers/ArzavJain/arimaa.pdf">Machine learning: move ranking in computer Arimaa</a>
+              </div>
+              <div class="project-description">
+                My group created a move ranking model for computer gameplay of the strategy board game <a href="http://en.wikipedia.org/wiki/Arimaa">Arimaa</a>. We applied supervised learning models to rank moves by 'expertness' and trained on archived move data from games played by experts. This work was the result of a 4-person team project for a machine learning class (CS229). [<a href="https://github.com/vmohan7/Arimaa">code</a> | <a href="http://arimaa.com/arimaa/papers/ArzavJain/arimaa.pdf">report</a>]
+              </div>
+            </div>
+            <div class="hidden-xs col-sm-5 col-md-4">
+              <img class="img-circle img-responsive project-image" src="img/arimaa-icon.png" alt="Arimaa elephant piece">
+            </div>
+          </div>
+
+          <!-- TODO: Insert "more projects" link -->
+
+          <br />
+          <br />
+
+          <h1 class="section-header">Design projects</h1>
+
+          <div class="row">
+
+            <div class="col-xs-6 col-md-4 text-center">
+              <div class="project-image-square-container">
+                <img class="img-responsive project-image-square" src="img/acl-mate.png">
+              </div>
+              <div class="project-short-title">
+                ACL MATE
+              </div>
+              <div class="project-subtitle">
+                Aiding in physical therapy recovery
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4 text-center">
+              <div class="project-image-square-container">
+                <img class="img-responsive project-image-square" src="img/scraps-logo-gray.png">
+              </div>
+              <div class="project-short-title">
+                scraps
+              </div>
+              <div class="project-subtitle">
+                Reducing cafeteria food waste
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4 text-center">
+              <div class="project-image-square-container">
+                <img class="img-responsive project-image-square" src="img/accord.png">
+              </div>
+              <div class="project-short-title">
+                Accord.io
+              </div>
+              <div class="project-subtitle">
+                Simplifying group dining
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4 text-center">
+              <div class="project-image-square-container">
+                <img class="img-responsive project-image-square" src="img/rise-cohort.png">
+              </div>
+              <div class="project-short-title">
+                Rise
+              </div>
+              <div class="project-subtitle">
+                Facilitating lifestyle change for chronic conditions
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  </body>
+</html>

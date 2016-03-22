@@ -1,257 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Vivek Choksi's personal website.">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vivek</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.teal-red.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="custom-styles.css">
+    <meta name="author" content="Vivek Choksi">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vivek Choksi</title>
+
+    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
   </head>
 
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-
-        <!-- Title -->
-        <section class="mdl-layout--large-screen-only mdl-layout__header-row section--center mdl-grid mdl-grid--no-spacing">
-          <div class="mdl-cell mdl-cell--12-col title">
-            <h2>Vivek Choksi</h2>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-10">
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a class="nav-current nav-leftmost">about</a></li>
+              <li><a href="projects.html">projects</a></li>
+              <li><a href="work.html">work</a></li>
+              <!--li><a  href="/other" >other</a></li-->
+            </ul>
           </div>
-        </section>
 
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <div class="text-center about-body">
+            <div class="profile-image">
+              <img class="img-circle img-responsive" src="img/profile.jpg">
+            </div>
+            <h1>Vivek Choksi</h1>
+            <p>I’m a master’s student at Stanford and an incoming software engineer at Google. Interested in machine learning and design. I want to use technology to improve lives.</p>
+            <div class='contact-icons text-center'>
+              <a href="https://github.com/vivekchoksi" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+              <a href="https://twitter.com/vivchoksi" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/vivekchoksi" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+
+              <script type="text/javascript">
+                <!--
+                // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+                // This code is freeware provided these four comment lines remain intact
+                // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                { coded = "K3FXtpZ@3p.p6nz7XcY.vYO"
+                  key = "VAzDlhY6yvcIom0WwTaZJN4kHqGjFLBsK3uXfxbSMn2RUdtEerQP1gp95Oi7C8"
+                  shift=coded.length
+                  link=""
+                  for (i=0; i<coded.length; i++) {
+                    if (key.indexOf(coded.charAt(i))==-1) {
+                      ltr = coded.charAt(i)
+                      link += (ltr)
+                    }
+                    else {
+                      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                      link += (key.charAt(ltr))
+                    }
+                  }
+                  document.write("<a href='mailto:"+link+"' target='_blank'><i class='fa fa-envelope fa-2x'></i></a>")
+                }
+                //-->
+              </script>
+            </div>
+          </div>
+
         </div>
-
-        <!-- Tab bar -->
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <section class="mdl-layout__header-row section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <a href="#about" class="about mdl-layout__tab is-active">About</a>
-              <a href="#work" class="work mdl-layout__tab">Work</a>
-              <a href="#projects" class="projects mdl-layout__tab">Projects</a>
-              <a href="#other" class="other mdl-layout__tab">Other</a>
-            </div>
-          </section>
-        </div>
-      </header>
-
-
-      <main class="mdl-layout__content">
-
-        <!-- About -->
-        <div class="mdl-layout__tab-panel is-active" id="about">
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
-              <div class="main-picture"></div>
-            </div>
-            <div class="mdl-card mdl-cell mdl-cell--8-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-                <p>
-                  I'm a computer science master's student at Stanford.
-                </p>
-                <p>
-                  Some highlights from my past few years: singing for and directing <a href="http://www.raagapella.com">an a cappella group</a>, teaching-assisting at <a href="http://www.cosat.co.za/">an amazing high school</a> in Cape Town, joining the ed-tech revolution during a summer at <a href="http://www.coursera.org">Coursera</a>, and building a recommender system for educational content at Google.
-                </p>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <!-- Work -->
-        <div class="mdl-layout__tab-panel" id="work">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                  <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                    <div class="section__text mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--8-col-phone">
-                      <h4>Google</h4>
-                      <h5>Software engineering intern, 2015 summer</h5>
-                      <p>
-                        Building a recommender system for educational content at Google, using weighted alternating least squares matrix factorization for collaborative filtering to predict relevant educational activities for Googlers
-                      </p>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--8-col-phone">
-                      <h4>Stanford University</h4>
-                      <h5>Research Assistant in Computer Science, 2015 winter and spring</h5>
-                      <p>
-                        Worked in Professor Jure Leskovec's SNAP group, mining mobile phone metadata to study the social dynamics of 2011 revolutionary Yemen
-                      </p>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--8-col-phone">
-                      <h4>Coursera</h4>
-                      <h5>Software engineering intern, 2014 summer</h5>
-                      <p>
-                        Developed front-ends on Coursera's monetization team, bringing identity verification to Coursera's new on-demand course platform
-                      </p>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--8-col-phone">
-                      <h4>Broadcom</h4>
-                      <h5>Software engineering intern, 2013 summer</h5>
-                      <p>
-                        Developed Broadcom’s first media applications for set-top box using the Qt framework
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-              </section>
-            </div>
-          </section>
-        </div>
-
-        <!-- Projects -->
-        <div class="mdl-layout__tab-panel" id="projects">
-
-          <!-- Software projects -->
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                  <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                    <h3 class="mdl-cell mdl-cell--12-col">Software projects</h3>
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5><a href="http://vivekchoksi.com/papers/taxi_pickups.pdf">Machine learning: predicting taxi traffic in NYC (pdf)</a></h5>
-                      <p>
-                        The ability to predict taxi traffic could be useful to taxi dispatchers and city planners. My group implemented such a prediction system, applying machine learning to predict the number of taxi pickups given a time interval and location in New York City. This was our final project for an artificial intelligence class (CS221) and was inspired by MIT's 2013-2014 Big Data Challenge, which proposed the same problem for taxicabs in Boston. [<a href="https://github.com/vivekchoksi/taxi-pickups">code</a>]
-                      </p>
-                    </div>
-                    <div class="section__circle-container mdl-cell mdl-cell--3-col-desktop .mdl-cell--hide-tablet .mdl-cell--hide-phone">
-                      <div class="section__circle-container__circle" style="background: url(./images/taxi-regression-plot.png) no-repeat center 0;background-size: cover;"></div>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5><a href="http://vivekchoksi.com/papers/game_phase_arimaa.pdf">Artificial intelligence: game-phase in computer Arimaa (pdf)</a></h5>
-                      <p>
-                        Continuing our research in <a href="http://en.wikipedia.org/wiki/Computer_Arimaa">computer Arimaa</a>, my group created a bot with knowledge of the game phase of a board position in order to evaluate boards and rank moves more effectively. We conducted this research as a 4-person team engaged in an independent study project under Professor Michael Genesereth. [<a href="https://github.com/vmohan7/Arimaa">code</a>]
-                      </p>
-                    </div>
-                    <div class="section__circle-container mdl-cell mdl-cell--3-col .mdl-cell--hide-tablet .mdl-cell--hide-phone">
-                      <div class="section__circle-container__circle" style="background: url(./images/arimaa-board.png) no-repeat center 0;background-size: cover;"></div>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5><a href="http://arimaa.com/arimaa/papers/ArzavJain/arimaa.pdf">Machine learning: move ranking in computer Arimaa (pdf)</a></h5>
-                      <p>
-                        My group created a move ranking model for computer gameplay of the strategy board game <a href="http://en.wikipedia.org/wiki/Arimaa">Arimaa</a>. We applied supervised learning models to rank moves by 'expertness' and trained on archived move data from games played by experts. This work was the result of a 4-person team project for a machine learning class (CS229). [<a href="https://github.com/vmohan7/Arimaa">code</a>]
-                      </p>
-                    </div>
-                    <div class="section__circle-container mdl-cell mdl-cell--3-col .mdl-cell--hide-tablet .mdl-cell--hide-phone">
-                      <div class="section__circle-container__circle" style="background: url(./images/arimaa-icon.png) no-repeat center 0;background-size: cover; background-color: #EEEEEE;"></div>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5><a href="https://polar-sands-1128.herokuapp.com/">Social media website for photo sharing</a></h5>
-                      <p>
-                        This Ruby on Rails web app implements user account creation as well as photo uploading, deleting, tagging, commenting, and searching. The app was the result of an assignment for a web applications class (CS142).
-                      </p>
-                    </div>
-                    <div class="section__circle-container mdl-cell mdl-cell--3-col .mdl-cell--hide-tablet .mdl-cell--hide-phone">
-                      <div class="section__circle-container__circle" style="background: url(./images/cs142-screenshot.png) no-repeat center 0;background-size: cover; background-color: #EEEEEE;"></div>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5><a href="./resistor/index.html">Resistance calculator for the power user</a></h5>
-                      <p>
-                         This web application is a simple tool for calculating a resistor's resistance based on its <a href="http://en.wikipedia.org/wiki/Electronic_color_code#Resistor_color-coding">coded color bands</a>. <a href="http://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band">Many</a> <a href="http://www.hobby-hour.com/electronics/resistorcalculator.php">other</a> <a href="http://www.eeweb.com/toolbox/4-band-resistor-calculator">such</a> <a href="http://www.electronics2000.co.uk/calc/resistor-code-calculator.php">online tools</a> exist, but this one is made for the power user &mdash; it has a text-based rather than a point-and-click interface, allowing you to calculate and double-check many resistances quickly. [<a href="https://github.com/vivekchoksi/resistor">code</a>]
-                      </p>
-                    </div>
-                    <div class="section__circle-container mdl-cell mdl-cell--3-col .mdl-cell--hide-tablet .mdl-cell--hide-phone">
-                      <div class="section__circle-container__circle" style="background: url(./images/resistor-screenshot.png) no-repeat center 0;background-size: cover; background-color: #EEEEEE;"></div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </section>
-
-
-          <!-- Design projects -->
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                  <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-
-                    <h3 class="mdl-cell mdl-cell--12-col">Design projects</h3>
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5><a href="http://hci.stanford.edu/courses/cs377e/2015/sp/DP2/scraps/poster.pdf">scraps: reducing cafeteria food waste (poster)</a></h5>
-                      <p>
-                        Food waste is a largely preventable problem with enormous environmental and economic impacts. Stanford University throws out ~3,900 tons of food each year, much of which goes from people's plates into compost bins at dining halls. My team built scraps on the idea that with the right nudge, individuals can be made aware of the tangible impacts of food waste and reduce their waste in cafeterias. We documented our design process from needfinding to medium-fidelity prototype in <a href="http://hci.stanford.edu/courses/cs377e/2015/sp/DP2/scraps/presentation.pdf">this presentation</a>, and we communicate our core idea in <a href="https://vimeo.com/129865008">this two-minute concept video</a>.
-                      </p>
-                    </div>
-                    <div class="section__circle-container mdl-cell mdl-cell--3-col-desktop .mdl-cell--hide-tablet .mdl-cell--hide-phone">
-                      <div class="section__circle-container__circle" style="background: url(./images/scraps-logo-gray.png) no-repeat center 0;background-size: cover;"></div>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5><a href="https://marvelapp.com/4510i6">Rise: lifestyle change to treat chronic conditions (app prototype)</a></h5>
-                      <p>
-                        Rise is designed to support patients with chronic conditions such as obesity and diabetes. Patients are referred by their doctors and placed into cohorts, small groups of patients who are managing the same illness. With Rise, patients can receive at-home treatment plans from their doctors, track their progress, and support other members of their cohort in achieving their goals. My teammate and I built our prototype for Rise as an assignment for a Stanford d.school class on visual, interaction, and behavioral design.
-                      </p>
-                    </div>
-                    <div class="section__circle-container mdl-cell mdl-cell--3-col-desktop .mdl-cell--hide-tablet .mdl-cell--hide-phone">
-                      <div class="section__circle-container__circle" style="background: url(./images/rise-cohort.png) no-repeat center 0;background-size: cover;"></div>
-                    </div>
-
-                    <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                      <h5>More content to come</h5>
-                      <p>
-                        This page is still in development.
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-              </section>
-            </div>
-          </section>
-        </div>
-
-        <!-- Other -->
-        <div class="mdl-layout__tab-panel" id="other">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                  <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                    <div class="section__text mdl-cell mdl-cell--8-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
-                      <h4>Content to come</h4>
-                      <p>
-                        This site is in development.
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-              </section>
-            </div>
-          </section>
-        </div>
-
-        <footer class="mdl-mega-footer">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <a href="https://twitter.com/vivchoksi"><div class="footer-icon" style="background: url(./images/footer-icon1.png) no-repeat center 0;background-size: contain;"></div></a>
-              <a href="https://www.linkedin.com/in/vivekchoksi"><div class="footer-icon" style="background: url(./images/footer-icon2.png) no-repeat center 0;background-size: contain;"></div></a>
-              <a href="https://github.com/vivekchoksi"><div class="footer-icon" style="background: url(./images/footer-icon3.png) no-repeat center 0;background-size: contain;"></div></a>
-              <div class="email-text">{email: "vchoksi [at] cs.stanford.edu"}</div>
-            </div>
-          </section>
-        </footer>
-
-      </main>
+      </div>
     </div>
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
   </body>
 </html>
