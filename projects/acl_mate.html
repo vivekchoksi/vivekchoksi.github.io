@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Vivek Choksi">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vivek Choksi | ACL MATE</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/styles.css" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-longform">
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+
+              <li><a class="nav-leftmost" href="../index.html">about</a></li>
+              <li><a href="../projects.html">projects</a></li>
+              <!--li><a href="../work.html">work</a></li-->
+              <li><a href="../other.html">other</a></li>
+            </ul>
+          </div>
+
+          <h1 class="text-center longform-title">ACL MATE</h1>
+
+          <div class="longform-subtitle text-center">
+            Aiding in physical therapy recovery
+          </div>
+
+          <img class="img-responsive" src="../img/acl_mate/acl-mate-banner.png" />
+
+          <h3 class="text-center">SUMMARY</h3>
+          <p>
+            After a physical injury, the road to recovery can be long and daunting. The physical and emotional stress involved in recovery contributes to <a href="http://physiotherapy.org.nz/assets/Professional-dev/Journal/2003-July/July03commentary.pdf">patient non-compliance rates of up to 65%</a> for at-home therapy prescribed by physical therapists.
+          </p>
+
+          <p>
+            ACL MATE is a mobile app that helps people through recovery after ACL surgery, leveraging behavioral design techniques to improve compliance.
+          </p>
+
+          <p>
+            I prototyped ACL MATE in a team of three as part of a seven-week project for CS247, a Stanford class on human-computer interaction and design. In this project, my group followed a user-centered design process, leading from needfinding into brainstorming and parallel experience prototypes, and ending with a medium-fidelity prototype.
+          </p>
+
+          <h3 class="text-center">FIRST-ROUND NEEDFINDING</h3>
+
+          <p>
+            We spoke with two patients at Stanford hospital about physical therapy and recovery, and they told us about how their close friends and family keep them motivated to stay healthy.
+          </p>
+
+          <p>
+            We also spoke with two physical therapy professionals who work within Stanford Athletics as well as outside Stanford. We were struck by the multifaceted secondary roles that these therapists play in caring for patients: in addition to diagnosing injuries and prescribing treatments, they act as motivators, educators, and counselors. 
+          </p>
+
+          <h3 class="text-center">FIRST-ROUND PROTOTYPING</h3>
+
+          <p>
+            In the carrot vs. stick model, our early ideas aligned with the stick. One idea that followed from our needfinding was to use social accountability to friends and family as a motivator: i.e. a system that reminds the patient to do at-home physical therapy and notifies her friends if she is non-compliant. However, from testing and feedback we realized patients who are already under the stress of injury need positive, not negative reinforcement.
+          </p>
+
+          <img class="img-responsive" src="../img/acl_mate/acl-mate-experience-prototype.png" />
+          <div class="longform-subtitle text-center">
+            A sketch and experience prototype of the social accountability idea, here called "Police Teddy"
+          </div>
+
+          <img class="img-responsive" src="../img/acl_mate/acl-mate-healing-pet.png" />
+          <div class="longform-subtitle text-center">
+            Another early idea: a "healing robo-pet" who encourages you with cuteness
+          </div>         
+
+          <p>
+            Until this point in the process, we had been interested in physical therapy generally. Going forward, we decided to focus on a specific injury in order to generate specific insights.
+          </p>
+
+          <h3 class="text-center">SECOND-ROUND NEEDFINDING</h3>
+
+          <p>
+            We spoke with three patients who had gone through ACL injury and recovery who told us about how they stayed motivated through recovery by setting goals for themselves and seeking solidarity with other injured friends or in online forums. We summarized our findings into two salient needs.
+          </p>
+          <ol>
+            <li>1) the need to believe that you're making progress, even when it's hard to see</li>
+            <li>2) the need to feel less alone in your recovery</li>
+          </ol>
+
+          <p>
+            In these interviews, we also learned about the timelines and benchmarks involved in recovery from ACL injury.
+          </p>
+
+          <h3 class="text-center">SECOND-ROUND PROTOTYPING</h3>
+
+          <p>
+            We explored the idea of progress-tracking and protoyped ways to gamify physical therapy, either by showing progress in exciting ways or by offering rewards such as coupons on health-related items, possibly paid for by insurance companies.
+          </p>
+
+          <img class="img-responsive" src="../img/acl_mate/acl-mate-progress-tracking.png" />
+          <div class="longform-subtitle text-center">
+            An experience prototype showing different ways to track and motivate recovery progress
+          </div>
+          <p>
+            We created a quick prototype (shown above) using Sketch and Marvel and tested on two users who had gone through ACL recovery. From feedback, we learned that the progress-tracking metrics were not as interesting to users as the simple exercises list and exercise form video. We also worried that over-gamifying recovery progress could distract users and undermine the intrinsic motivation to get better.
+          </p>
+
+          <img class="img-responsive" src="../img/acl_mate/acl-mate-user-testing.png" />
+          <div class="longform-subtitle text-center">
+            Prototype testing
+          </div>
+
+          <h3 class="text-center">FINAL PROTOTYPE</h3>
+
+          <p>
+            In our final prototype, we simplified the progress-tracking metrics and, after revisiting our needfinding insights, expanded upon ways to help patients feel less alone in their recovery. Users might have two yet-untapped sources of social support who could be recruited as "allies".
+          </p>
+
+          <ol>
+            <li>1) Close friends and family. One of our interviewees reported that her close friends weren't a strong source of support in her recovery despite their good intentions, because they didn't know how to help and could not empathize with her injury.</li>
+            <li>2) Acquaintances who have had the same injury. We reasoned that for an injury as common as ACL injury, it's likely that patients have friends or friends-of-friends who they don't realize have had the same injury.</li>
+          </ol>
+
+          <p>
+            We envisioned that patients could choose "allies", people who they want to be involved in their recovery. Allies would receive infrequent email updates when the patient hits milestones with information on what the milestones mean and why they are important.
+          </p>
+
+          <img class="img-responsive" src="../img/acl_mate/acl-mate-ally-email.png" />
+          <div class="longform-subtitle text-center">
+            A sample email to an ally
+          </div>
+
+          <p>
+            We built our final medium-fidelity prototype using Sketch and Swift for iOS development. Of the 26 projects presented and judged in our class's demo day, my team's project was judged at 2nd place. Our demo video and poster are below.
+          </p>
+
+          <div class="video-wrapper">
+            <iframe class="img-responsive" width="420" height="315" src="https://www.youtube.com/embed/UKkhkm9Qexo" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="longform-subtitle text-center">
+            ACL MATE demo video showing all screens of the app prototype
+          </div>
+
+          <img class="img-responsive" src="../img/acl_mate/acl-mate-poster.png" />
+          <div class="longform-subtitle text-center">
+            Our final poster
+          </div>
+
+          <h3 class="text-center">WHAT WAS LEFT OUT</h3>
+
+          <p>
+            Given more time, I would have conducted another round of user testing to get feedback on our final prototype. I have unanswered questions about how potential allies and physical therapists would react to the idea, since (1) the ACL MATE relies on their involvement, and (2) we only tested prototypes on people who were once patients for ACL injury.
+          </p>
+          <p>
+            Though it was valuable in our design process for us to focus on a specific injury, I wonder how well the idea behind ACL MATE would generalize to other injuries. We selected ACL injury as our focus because one of our first interviewees happened to have gone through it. It would have been interesting to talk to patients with other injuries in order to (1) broaden the design space for more potential insights, and (2) learn whether ACL MATE's features would generalize to other injuries. 
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  </body>
+</html>
