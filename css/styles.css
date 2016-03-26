@@ -257,4 +257,25 @@ img.project-image-square:hover {
 }
 
 
+.marvel-wrapper {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .marvel-wrapper {
+    position: relative;
+    padding-bottom: 100%;
+    padding-top: 25px;
+    height: 0;
+    margin-top: 50px;
+  }
+
+  .marvel-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
 
