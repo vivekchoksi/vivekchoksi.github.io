@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Vivek Choksi">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vivek Choksi | &#64;WWE_Trump</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/styles.css" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-33280388-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-longform">
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+
+              <li><a class="nav-leftmost" href="../index.html">about</a></li>
+              <li><a href="../projects.html">projects</a></li>
+              <!--li><a href="../work.html">work</a></li-->
+              <li><a href="../other.html">other</a></li>
+            </ul>
+          </div>
+
+          <h1 class="text-center longform-title"><a href="https://twitter.com/WWE_Trump">&#64;WWE_Trump</a></h1>
+
+          <div class="longform-subtitle text-center">
+            Twitter bot mixing the words of Donald Trump and professional wrestlers
+          </div>
+
+          <img class="img-responsive" src="../img/wwe-trump-banner.png" />
+
+
+          <h3 class="text-center">CONTEXT</h3>
+          <p>
+            The bot (<a href="https://twitter.com/WWE_Trump">&#64;WWE_Trump</a>) was created in the spring of 2016. The U.S. presidential primaries were reaching a fever pitch, Donald Trump was winning states, and the Republican political contest was seeming more and more like the stuff of strange dreams or Russian literature. I got interested in the idea of "Donald Trump as wrestling showman" after reading <a href="http://www.rollingstone.com/politics/news/how-america-made-donald-trump-unstoppable-20160224" target="_blank">an article by Matt Taibbi in Rolling Stone</a> that made this comparison compelling.
+          </p>
+
+          <blockquote cite="http://www.rollingstone.com/politics/news/how-america-made-donald-trump-unstoppable-20160224">
+            <p>
+              The ninth Republican debate, in Greenville, South Carolina, is classic Trump. He turns these things into WWE contests, and since he has actual WWE experience after starring in Wrestlemania in 2007, he knows how to play these moments like a master.
+
+              Interestingly, a lot of Trump's political act seems lifted from bully-wrestlers. A clear influence is "Ravishing" Rick Rude, an Eighties champ whose shtick was to insult the audience. He would tell ticket holders they were "fat, ugly sweat hogs," before taking off his robe to show them "what a real sexy man looks like."
+            </p>
+          </blockquote>
+
+          <p>
+            I made <a href="https://twitter.com/WWE_Trump">&#64;WWE_Trump</a> as an assignment for an art class. The bot relies on the existing Ruby gem <a href="https://github.com/mispy/twitter_ebooks" target="_blank">twitter_ebooks</a>, which uses a simple pseudo-Markov generator as its language model. All I really did was gather corpora &mdash; Trump tweets, Trump speeches, and wrestler promo speeches &mdash; and tweak the code to try to make the generated tweets more interesting. Specifically, the bot only produces tweets that contain keywords that rank highly in the vocabulary of Trump (e.g. the word "polls") and wrestlers (e.g. the word "Wrestlemania").
+          </p>
+
+          <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Polls show I beat you at your best and at the end of Wrestlemania Five, I will be the World Wrestling Federation champion!</p>&mdash; WWE Trump (@WWE_Trump) <a href="https://twitter.com/WWE_Trump/status/737279990803398656">May 30, 2016</a></blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          <p>
+            Many of the tweets don't make grammatical or semantic sense, but sometimes the most nonsensical tweets are the most entertaining.
+          </p>
+
+          <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Dumb as a man, and win, lose or draw, trust me, I&#39;m gonna respect myself in the morning, and you&#39;re gonna respect me!</p>&mdash; WWE Trump (@WWE_Trump) <a href="https://twitter.com/WWE_Trump/status/725400922856263681">April 27, 2016</a></blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Macho Man, I hope you&#39;re ready, brother, because Donald Trump has questions in his own semen, he mocks God...he mocks God!</p>&mdash; WWE Trump (@WWE_Trump) <a href="https://twitter.com/WWE_Trump/status/724833230361387008">April 26, 2016</a></blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  </body>
+</html>
