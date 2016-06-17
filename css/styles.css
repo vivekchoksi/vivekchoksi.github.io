@@ -237,6 +237,14 @@ img.project-image-square:hover {
   margin-right: auto;
 }
 
+.col-longform > blockquote {
+  font-family: Source Sans Pro, Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.col-longform > blockquote > p {
+  padding-bottom: 20px;
+}
+
 /* 
  * Center the YouTube embed. From here: 
  * https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
