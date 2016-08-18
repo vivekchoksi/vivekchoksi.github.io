@@ -14,7 +14,7 @@ body .container {
 
 h1, h2, h3 {
   font-weight: 600;
-  font-family: Proxima Nova, Source Sans Pro, Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Proxima Nova, Montserrat, Source Sans Pro, Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a:hover, a:focus {
@@ -89,6 +89,15 @@ a.nav-current {
   font-weight: 600;
   letter-spacing: .01em; }
 
+/* https://gist.github.com/jarv/ec34057d8e8138c8b921 */
+.my-fa-linkedin:before {
+  content: "\f0e1";
+} 
+
+.my-fa-twitter:before {
+  content: "\f099";
+}
+
 .about-body .contact-icons {
   margin-top: 50px;
   white-space: nowrap;
@@ -154,7 +163,7 @@ img.project-image-square:hover {
 }
 
 .project-short-title {
-    font-family: Proxima Nova, Source Sans Pro, Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Proxima Nova, Montserrat, Source Sans Pro, Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-size: 20px;
     margin: 20px 0px 10px 0px;
