@@ -20,7 +20,7 @@ h1, h2, h3 {
 a:hover, a:focus {
     background-color: transparent !important;
     text-decoration: none;
-    color: #2996cc;
+    color: #555555;
 }
 
 a:hover {
